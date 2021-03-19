@@ -5,5 +5,5 @@ services:
         hostname: 'LGSM'
         network_mode: host
         volumes:
-          - '/home/cody/podman/linuxgsm/lgsm:/home/linuxgsm'
+          - '/path/to/lgsm:/home/linuxgsm'
         restart: always
